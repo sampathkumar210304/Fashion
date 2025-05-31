@@ -1,0 +1,31 @@
+.hero-banner {
+    padding: 100px 20px;
+    background: url("https://images.unsplash.com/photo-1512436991641-6745cdb1723f") no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    position: relative;
+  }
+  
+  .hero-banner::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+  }
+  
+  .hero-banner h1,
+  .hero-banner p {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .hero-banner h1 {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-banner p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
